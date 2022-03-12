@@ -219,6 +219,10 @@ html{
 
         background-size :500px 350px !important;
 
+ 
+    }
+    .bottomLogo{
+        width: 40px !important;
     }
  
  }
