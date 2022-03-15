@@ -3,29 +3,14 @@
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+    box-shadow: none !important;
 
 }
-::-webkit-scrollbar{
-    /* display: none; */
-}
+
 html{
     scroll-behavior: smooth;
 }
-.main-body{
-    /* width: 100%; */
-    height:auto;
-    
-    /* border: 1px solid black; */
-    background-repeat: no-repeat;
-    background-size:  contain;
-    background-size :2000px 1000px;
 
-    
-    /* background-image: linear-gradient(rgba(0,0,0,0.67),rgba(0,0,0,0.3)),url(./imgaes/milebg.png); */
-
-
-    
-}
 .main-body1{
     /* width: 100%; */
     height:auto;
@@ -39,7 +24,7 @@ html{
    
 
     
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./imgaes/milebg.png);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./imgaes/banner4.jpg);
 
 
     
@@ -76,55 +61,7 @@ html{
     font-size: 20px;
 
 }
-@media (max-width:2778px) { 
-    .main-body{
-        background-size :3000px 1500px;
 
-    }
-
-}
-@media (max-width:2324px) { 
-    .main-body{
-        background-size :2500px 1500px;
-
-    }
-
-}
-@media (max-width:1590px) { 
-    .main-body{
-        background-size :1600px 940px !important;
-
-    }
-
-}
-@media (max-width:1990px) { 
-    .main-body{
-        background-size :1900px 940px !important;
-
-    }
-
-}
-@media (max-width:1440px) { 
-    .main-body{
-        background-size :1500px 850px;
-
-    }
-
-}
-@media (max-width:1240px) { 
-    .main-body{
-        background-size :1300px 850px;
-
-    }
-
-}
-@media (max-width:1140px) { 
-    .main-body{
-        background-size :1150px 850px;
-
-    }
-
-}
 @media (max-width: 991.98px) { 
     .main-body{
         background-size: 100% 100% 100% 100% ;
@@ -263,6 +200,7 @@ html{
     /* border: 1px solid wheat; */
     /* color: aliceblue; */
     display: flex;
+    background-color: rgb(0, 0, 0 );
 
     justify-content: space-between;
     padding: 0px 20px;
@@ -292,7 +230,7 @@ ul li{
     /* border: 1px solid red; */
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 100vh;
     flex-direction: column;
     display: flex;
 }
@@ -364,6 +302,7 @@ ul li{
     display: flex;
     align-items: center;
     color: aliceblue;
+
 
 }
 .allCard{
@@ -608,12 +547,14 @@ height: auto;
     background: linear-gradient(#801937,#231026);
     /* height: 100vh; */
     padding: 20px;
-    padding-bottom: 70px;
+    /* padding-bottom: 70px; */
 
 }
-.faqsHeading {
-    margin-top: 30px;
+.lastfooter{
+    background: linear-gradient( #231026,#231026);
+
 }
+
 .faqsHeading h1{
     color: #E53E3E;
 
@@ -631,4 +572,7 @@ height: auto;
 .questionbtn{
     color: aliceblue !important;
     font-weight: 900;
+}
+.card1{
+    box-shadow:  none !important    ;
 }
