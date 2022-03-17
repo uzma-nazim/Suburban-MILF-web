@@ -41,8 +41,8 @@ html{
     position: relative;
     display: none;
 }
-.mobilemenu{
-
+.animation{
+    margin: 10px;
 }
 .mobilemenu{
     
@@ -90,6 +90,9 @@ html{
     .main-body{
         background-size :1000px 750px;
 
+    }
+    .whiteList{
+        padding-left: 10px!important;
     }
 }
 @media (max-width: 858px) { 
